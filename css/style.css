@@ -47,6 +47,34 @@ p {
     width: 100px;
 }
 
+.t-target-body {
+  width: 456px;
+  height: 400px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  padding: 56px;
+  vertical-align: bottom;
+}
+
+.t-target-button {
+  bottom: 45px;
+  right: 24px;
+}
+
+.t-target-dom {
+  right: -348px;
+  bottom: -327px;
+  position: fixed;
+}
+
+.t-target-menu-wave {
+  top: 344px;
+  left: 344px;
+  width: 112px;
+  height: 112px;
+}
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {

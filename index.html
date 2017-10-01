@@ -301,7 +301,7 @@
           <h4 class="center">General Loan Requirements</h4>
           <ul class="collapsible popout" data-collapsible="accordion">
             <li>
-              <div class="collapsible-header"><i class="material-icons">filter_drama</i><strong>General Eligibility and Lending Requirement</strong></div>
+              <div class="collapsible-header"><i class="material-icons">arrow_drop_down_circle</i>General Eligibility and Lending Requirement</div>
               <div class="collapsible-body">
                   <ul>
                     <li><i class="material-icons tiny">chevron_right</i>  Member must be in good standing with the credit union</li>
@@ -315,7 +315,7 @@
               </div>
             </li>
             <li>
-              <div class="collapsible-header"><i class="material-icons">place</i><strong>Unsecured Loans</strong></div>
+              <div class="collapsible-header"><i class="material-icons">arrow_drop_down_circle</i>Unsecured Loans</div>
               <div class="collapsible-body">
                 <ul>
                   <li><i class="material-icons tiny">chevron_right</i>  <strong>Signature Loans</strong></li>
@@ -334,7 +334,7 @@
               </div>
             </li>
             <li>
-              <div class="collapsible-header"><i class="material-icons">whatshot</i>Secured Loans</div>
+              <div class="collapsible-header"><i class="material-icons">arrow_drop_down_circle</i>Secured Loans</div>
               <div class="collapsible-body">
                 <ul>
                   <li><i class="material-icons tiny">chevron_right</i>  <strong>New Automobile</strong></li>
@@ -373,6 +373,26 @@
       <a href="#!" class="modal-action modal-close waves-effect waves-blue btn-flat">Close</a>
     </div>
   </div>
+
+
+  <!-- fixed action button -->
+  <div class="fixed-action-btn t-target-button">
+    <a id="menu" class="btn btn-floating btn-large blue darken-1" onclick="$('.tap-target').tapTarget('open')"><i class="material-icons">menu</i></a>
+  </div>
+  <!-- Tap Target Structure -->
+  <div class="tap-target-wrapper t-target-dom">
+      <div class="tap-target blue darken-1" data-activates="menu">
+          <div class="tap-target-content white-text t-target-body">
+              <br>
+              <h5 class="center">Welcome!</h5>
+              <p class="white-text center">This is our new and improved website!  We hope it provides ease of access for your finacial needs.  If you have any questions or concerns please reach out to us.</p>
+          </div>
+      </div>
+      <div class="tap-target-wave t-target-menu-wave"><a class="btn btn-floating btn-large blue darken-1 tap-target-origin"><i class="material-icons">menu</i></a></div>
+  </div>
+
+
+
 
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>

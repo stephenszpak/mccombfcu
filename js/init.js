@@ -5,6 +5,8 @@
     $('.parallax').parallax();
     $('.modal').modal();
     $('.collapsible').collapsible();
+    $('.tap-target').tapTarget('open');
+  	$('.tap-target').tapTarget('close');
 
-  }); // end of document ready
-})(jQuery); // end of jQuery name space
+  });
+})(jQuery);
